@@ -2,10 +2,10 @@
 
 This is a lightweight example that showcases creating a custom Van component as a wrapper for an external library -- in this case, the `Chart` component from [Chart.js](https://www.chartjs.org/).
 
-- See [`chart.ts`](https://github.com/csm-kb/vanjs-chartjs-example/src/chart.ts) for the wrapper.
-- See [`main.ts`](https://github.com/csm-kb/vanjs-chartjs-example/src/main.ts) for the wrapper.
+- See [`chart.ts`](https://github.com/csm-kb/vanjs-chartjs-example/src/chart.ts) for the wrapper component definition.
+- See [`main.ts`](https://github.com/csm-kb/vanjs-chartjs-example/src/main.ts) for usage of the `Chart` component.
 
-The chart is connected to state that re-renders when it changes.
+The chart is connected to state (chart data) that re-renders when it changes. A "Randomize" button is provided to refresh the data, and a debug menu dropdown is also provided to view the chart data state.
 
 This repository was spawned from the `vite-vanjs-ts` template.
 
